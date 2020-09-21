@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1ZjY3NjlmNDMwYTQyZDM0OTBiZTA0MjkiLCJpYXQiOjE2MDA2MjI4MDV9.S9BLbZWfdJZhQls1jTHYq2LNh3JwvdGKMB1QEUnhl2w
+
+{
+    "title": "252",
+    "author": "cheeky",
+    "url": "www.google.co.uk",
+    "likes": 13,
+    "userId": "5f6769f430a42d3490be0429"
+}
